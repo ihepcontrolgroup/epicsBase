@@ -11,5 +11,6 @@
 - 在终端或命令行键入命令，创建名为epics的容器：`docker run -it --name epics -v /host/path:/docker/path epics:v1 /bin/bash`
   其中： --name 后的参数是容器名，-v 是将宿主机目录挂载到容器目录下，epics:v1 是刚才创建的镜像名及tag，/bin/bash 是默认终端使用bash
   每个参数后都应该跟有空格。该容器默认登录的用户为epics，密码为epics，其具有root权限。
+
 祝您游戏愉快！
 
