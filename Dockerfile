@@ -22,3 +22,5 @@ RUN wget https://epics.anl.gov/download/base/base-7.0.6.1.tar.gz \
 
 ENV EPICS_BASE=/home/epics/base
 ENV PATH=${PATH}:${EPICS_BASE}/bin/linux-x86_64
+
+# fdslfjdsa
